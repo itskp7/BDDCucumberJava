@@ -1,0 +1,98 @@
+-------------------------------------------------------------------------------
+Test set: StepDefinitions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 27.259 sec <<< FAILURE!
+check logout link is there(Check home page functionality)  Time elapsed: 0.362 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user is on the login page' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user is on the login page")
+public void user_is_on_the_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clicks on login button")
+public void clicks_on_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks on welcome link")
+public void user_clicks_on_welcome_link() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("logout link is displayed")
+public void logout_link_is_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+verify quick launch toolbar is present(Check home page functionality)  Time elapsed: 0.027 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user is on the login page' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user is on the login page")
+public void user_is_on_the_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clicks on login button")
+public void clicks_on_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks on dashboard link")
+public void user_clicks_on_dashboard_link() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("quick launch toolbar is displayed")
+public void quick_launch_toolbar_is_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+validate google search is working(feature to test google search functionality)  Time elapsed: 3.793 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user is on google search page' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user is on google search page")
+public void user_is_on_google_search_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user enters a text in searchbox")
+public void user_enters_a_text_in_searchbox() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("hits enter")
+public void hits_enter() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user is navigated to search results")
+public void user_is_navigated_to_search_results() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+check login is successful with valid credentials(feature to test login functionality)  Time elapsed: 0.016 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'the user is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("the user is on login page")
+public void the_user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clicks on login button")
+public void clicks_on_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
